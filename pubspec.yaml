@@ -1,0 +1,53 @@
+name: coder
+description: "Coder - Your Engineering Team"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  go_router: ^17.3.0
+  file_picker: ^11.0.2
+  google_fonts: ^6.2.1
+  provider: ^6.1.2
+  shared_preferences: ^2.5.3
+  http: ^1.4.0
+  path_provider: ^2.1.5
+  path: ^1.9.0
+  shelf: ^1.4.1
+  shelf_static: ^1.1.2
+  webview_flutter: ^4.7.0
+  webview_windows: ^0.3.0
+  desktop_webview_window: ^0.2.3
+  github: ^9.17.0
+  process_run: ^1.2.0
+  diff_match_patch: ^0.4.1
+  url_launcher: ^6.2.5
+  flutter_svg: ^2.0.10
+  web_socket_channel: ^3.0.1
+  flutter_code_editor: ^0.3.5
+  flutter_highlight: ^0.7.0
+  highlight: ^0.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/standards/html.standard.md
+    - assets/standards/css.standard.md
+    - assets/standards/javascript.standard.md
+    - assets/standards/typescript.standard.md
+    - assets/standards/react.standard.md
+    - assets/standards/nextjs.standard.md
+    - assets/standards/nodejs.standard.md
+    - assets/standards/python.standard.md
